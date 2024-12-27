@@ -1,0 +1,93 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: honeydew;
+  color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-container {
+  text-align: center;
+  background-color: honeydew;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 90%;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  border-bottom: 3px solid coral;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.contact-details p {
+  font-size: 1.2em;
+  line-height: 1.8em;
+  margin: 15px 0;
+}
+
+.contact-details a {
+  text-decoration: none;
+  color: coral;
+  font-weight: bold;
+}
+
+.contact-details a:hover {
+  color: burlywood;
+}
+
+.social-media {
+  margin: 20px 0;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 10px 15px;
+  text-decoration: none;
+  color: coral;
+  font-weight: bold;
+  font-size: 1.1em;
+  border: 2px solid coral;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.social-media a:hover {
+  background-color: coral;
+  color: honeydew;
+}
+
+.map {
+  margin: 20px 0;
+  border: 2px solid coral;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+a.back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: coral;
+  font-weight: bold;
+  border: 2px solid coral;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+a.back-btn:hover {
+  background-color: coral;
+  color: honeydew;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

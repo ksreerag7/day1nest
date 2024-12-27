@@ -1,0 +1,84 @@
+.box{
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: left;
+  background-color:honeydew;
+  color:coral;
+}
+.box:hover{
+  font-size: large;
+  transition: 400ms;
+}
+
+.crop-box {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 2000px;
+}
+
+.crop-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.navbar{
+  border: 1px solid black;
+  height:90px;
+  font-size:medium;
+  font-weight: bold;
+  align-items: center;
+  display:flex;
+  background-color:honeydew;
+  color:coral
+}
+.nam{
+  color: coral;
+}
+
+.hom
+{
+  margin-left: 60%;
+  color: coral;
+}
+.hom:hover{
+  font-size:larger;
+  transition: 530ms;
+  color:burlywood;
+}
+.cont
+{
+  margin-left: auto;
+  color: coral;
+}
+.cont:hover{
+  font-size:larger;
+  transition: 530ms;
+  color:burlywood;
+}
+.abt
+{
+  margin-left: auto;
+  color: coral;
+}
+.abt:hover{
+  font-size:larger;
+  transition: 530ms;
+  color:burlywood;
+}
+.ski
+{
+  margin-left: auto;
+  color: coral;
+}
+.ski:hover{
+  font-size:larger;
+  transition: 530ms;
+  color:burlywood;
+}
+
+.skill{
+  font-style:oblique;
+  font-weight: bold;
+}
